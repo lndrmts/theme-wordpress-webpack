@@ -6,7 +6,8 @@ Antes de iniciar certifique-se de ter instalado o [node](https://nodejs.org/en/)
 
 Siga as orientações em https://wp-cli.org/ e faça a instalação, e após.
 
-1 - Clone ou Crie um novo repósitorio a partir deste
+1 - **Clone** ou **Crie um novo repósitorio** a partir deste template
+
 2 - No diretório raiz edite o arquivo _wp-cli.yml_ com suas configurações
 
 3 - Execute `yarn wordpress` or `npm run wordpress`
