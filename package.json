@@ -1,0 +1,40 @@
+{
+  "name": "theme-wordpress-webpack",
+  "version": "1.0.0",
+  "description": "Starter Theme Wordpress with to use the Webpack",
+  "main": "index.js",
+  "repository": "https://github.com/lndrmts/theme-wordpress-webpack.git",
+  "author": "lndrmts <mateus6leandro@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "wordpress": "wp core download && wp config create && wp db create && wp core install && wp theme install",
+    "wp:dist": "wp dist-archive ./wp-content/themes/theme-wordpress-webpack theme-wordpress-webpack.zip",
+    "dev": "webpack --config ./wp-content/themes/theme-wordpress-webpack/webpack/webpack.config.js --watch --env development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "file-loader": "^6.0.0",
+    "image-webpack-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^2.0.5",
+    "sass-loader": "^9.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "cssnano": "^4.1.10"
+  }
+}

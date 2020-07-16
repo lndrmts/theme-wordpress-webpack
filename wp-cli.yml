@@ -1,0 +1,29 @@
+path: WP_PATH
+url: WP_URL
+user: WP_USERNAME
+
+core skip-plugins:
+  - hello
+
+core skip-themes:
+  - twentyfifteen
+  - twentyfourteen
+  - twentythirteen
+
+core download:
+  locale: WP_LANGUAGE
+
+core config:
+  dbname: WP_DB_NAME
+  dbuser: WP_DB_USER
+  dbpass: WP_DB_PASS
+
+core install:
+  title: WP_TITLE
+  admin_user: WP_ADMIN_USER
+  admin_password: WP_ADMIN_PASS
+  admin_email: WP_ADMIN_EMAIL
+
+theme install:
+  - WP_THEME_PATH_ZIP
+  activate: true
