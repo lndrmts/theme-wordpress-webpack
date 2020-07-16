@@ -20,3 +20,6 @@ Siga as orientações em https://wp-cli.org/ e faça a instalação, e após.
 5 - Execute `yarn dev` or `npm run dev`
 
 Se tudo ocorreu bem seu arquivos já estão sendo assistidos dentro do tema escolhido e já pode desenvolver.
+
+## Para gerar um zip do tema modificado utilize o comando abaixo:
+`yarn wp:dist` or `nom run wp:dist`
