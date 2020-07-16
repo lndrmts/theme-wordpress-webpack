@@ -1,6 +1,6 @@
 ### Como utilizar este pacote
 
-Antes de iniciar certifique-se de ter instalado o [node]([https://nodejs.org/en/])
+Antes de iniciar certifique-se de ter instalado o [node](https://nodejs.org/en/)
 
 ## Instale WP_CLI
 
