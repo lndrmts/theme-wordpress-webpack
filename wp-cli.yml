@@ -1,6 +1,6 @@
-path: WP_PATH
-url: WP_URL
-user: WP_USERNAME
+path: /home/leandro/www/wordpress
+url: http://themewordpress.tmp.br
+user: leandro
 
 core skip-plugins:
   - hello
@@ -11,19 +11,19 @@ core skip-themes:
   - twentythirteen
 
 core download:
-  locale: WP_LANGUAGE
+  locale: pt_BR
 
 core config:
-  dbname: WP_DB_NAME
-  dbuser: WP_DB_USER
-  dbpass: WP_DB_PASS
+  dbname: db_theme_wordpress_webpack
+  dbuser: root
+  dbpass: root
 
 core install:
-  title: WP_TITLE
-  admin_user: WP_ADMIN_USER
-  admin_password: WP_ADMIN_PASS
-  admin_email: WP_ADMIN_EMAIL
+  title: Starter Kit Wordpress Theme with Webpack
+  admin_user: leandro
+  admin_password: leandro
+  admin_email: leandro@lndrmts.dev
 
 theme install:
-  - WP_THEME_PATH_ZIP
+  - ./theme-wordpress-webpack.zip
   activate: true

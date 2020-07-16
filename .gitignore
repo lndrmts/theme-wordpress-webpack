@@ -1,3 +1,15 @@
 /node_modules
 .env
 
+
+
+# Wordpress Files
+index.php
+license.txt
+wp-*
+xmlrpc.php
+readme.html
+
+!/wp-content/themes/theme-wordpress-webpack
+
+
